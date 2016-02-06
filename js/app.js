@@ -70,9 +70,19 @@
     // document.querySelector('#greeting').textContent = welcomeMessage;
 
 
-
     // ******************* SHUFFLE *******************
-    var sourceText = document.querySelector('#source').textContent;
-    var destinationText = document.querySelector('#destination').textContent;
-    document.querySelector('#destination').textContent = sourceText;
-    document.querySelector('#source').textContent = destinationText;
+    // var sourceText = document.querySelector('#source').textContent;
+    // var destinationText = document.querySelector('#destination').textContent;
+    // document.querySelector('#destination').textContent = sourceText;
+    // document.querySelector('#source').textContent = destinationText;
+
+
+    // ******************* MAD LIBS *******************
+    var noun = prompt("What is your name");
+    document.querySelector('#noun').textContent;
+
+    var adj = prompt("What do you like?");
+    document.querySelector('#adj').textContent;
+
+    var verb = prompt("When they have a.....?");
+    document.querySelector('#verb').textContent
