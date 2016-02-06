@@ -8,14 +8,32 @@
 
     // EXERCISE 2
 
-    var hour, minute;
-    hour = 1;
-    minute = 40;
+    // var hour, minute;
+    // hour = 13;
+    // minute = 50;
+    //
+    // var remHour = 24 - hour;
+    // var remMinute = (60 - minute) + (remHour * 60);
+    // var remSec = remMinute * 60;
+    // console.log(remSec);
 
-    var remHour = 24 - hour;
-    var remMinute = (60 - minute) + (remHour * 60);
-    var remSec = remMinute * 60;
-    console.log(remSec);
+
+    // EXERCISE 3
+
+    //
+    var name = "Thoshh";
+    var age = 24;
+    var sex = "male";
+    var favFood = "Fruits";
+    var occupation = "student";
+    var school = "Moringa school";
+    var physicalLocation = "Galana Plaza";
+    // var bestFriend
+    // var birthday
+    // var language
+    console.log("Hi, this is " + name + ". I am a " + age + " year old " + sex +
+      ". I am a " + occupation + " at " + school + " which is at " +
+      physicalLocation + ". I like " + favFood + " as my favourite Food.");
 
 
 
