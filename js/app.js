@@ -36,20 +36,20 @@
 
 
     // EXERCISE 3 PROMPT
-
-    var name = prompt("What is your name?");
-    var age = prompt("How old are you?");
-    var sex = prompt("Sex?");
-    var favFood = prompt("What is your favourite food?");
-    var occupation = prompt("What's your occupation?");
-    var school = prompt("Which school do you go to?");
-    var physicalLocation = prompt("Where is the school?");
-    // // var bestFriend
-    // // var birthday
-    // // var language
-    console.log("Hi, this is " + name + ". I am a " + age + " year old " + sex +
-      ". I am a " + occupation + " at " + school + " which is at " +
-      physicalLocation + ". I like " + favFood + " as my favourite Food.");
+    //
+    // var name = prompt("What is your name?");
+    // var age = prompt("How old are you?");
+    // var sex = prompt("Sex?");
+    // var favFood = prompt("What is your favourite food?");
+    // var occupation = prompt("What's your occupation?");
+    // var school = prompt("Which school do you go to?");
+    // var physicalLocation = prompt("Where is the school?");
+    // // // var bestFriend
+    // // // var birthday
+    // // // var language
+    // console.log("Hi, this is " + name + ". I am a " + age + " year old " + sex +
+    //   ". I am a " + occupation + " at " + school + " which is at " +
+    //   physicalLocation + ". I like " + favFood + " as my favourite Food.");
 
 
 
@@ -60,3 +60,12 @@
     // if (name != null) {
     //   document.write("welcome " + name);
     // }
+
+
+
+    // ******************* GREETER *******************
+
+    var visitorName = prompt("Name Please....");
+    var welcomeMessage = ("karibu sana bwana" + visitorName);
+    document.querySelector('#greeting').textContent = welcomeMessage;
+    // alert(welcomeMessage);
