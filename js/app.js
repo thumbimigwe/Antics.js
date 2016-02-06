@@ -79,10 +79,10 @@
 
     // ******************* MAD LIBS *******************
     var noun = prompt("What is your name");
-    document.querySelector('#noun').textContent;
+    document.querySelector('#noun').textContent = noun;
 
     var adj = prompt("What do you like?");
-    document.querySelector('#adj').textContent;
+    document.querySelector('#adj').textContent = adj;
 
     var verb = prompt("When they have a.....?");
-    document.querySelector('#verb').textContent
+    document.querySelector('#verb').textContent = verb;
