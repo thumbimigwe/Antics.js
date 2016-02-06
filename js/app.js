@@ -65,7 +65,14 @@
 
     // ******************* GREETER *******************
 
-    var visitorName = prompt("Name Please....");
-    var welcomeMessage = ("karibu sana bwana" + visitorName);
-    document.querySelector('#greeting').textContent = welcomeMessage;
-    // alert(welcomeMessage);
+    // var visitorName = prompt("Name Please....");
+    // var welcomeMessage = ("karibu sana bwana " + visitorName);
+    // document.querySelector('#greeting').textContent = welcomeMessage;
+
+
+
+    // ******************* SHUFFLE *******************
+    var sourceText = document.querySelector('#source').textContent;
+    var destinationText = document.querySelector('#destination').textContent;
+    document.querySelector('#destination').textContent = sourceText;
+    document.querySelector('#source').textContent = destinationText;
