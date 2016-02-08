@@ -1,0 +1,33 @@
+<html>
+<head>
+
+    </head>
+<body>
+
+    <div id = "greeting"></div>
+      <div id = "source"> moringa school</div>
+    <div id = "destination"> nairobi is great </div>
+
+
+    <p> we are very happy to have you from  <span id = "town"> </span> .</p>
+
+
+
+
+
+    <script>
+
+var visitor_name = prompt("Enter your name")
+var welcome_message = ("welcome " + visitor_name)
+document.querySelector ('#greeting').textContent=welcome_message
+var town = prompt ("Enter your town")
+document.querySelector('#town').textContent = town;
+   var source = document.querySelector('#source').textContent
+   var destination = document.querySelector('#destination').textContent
+    document.querySelector('#source').textContent = destination
+     document.querySelector('#destination').textContent = source
+    </script>
+
+
+    </body>
+</html>
